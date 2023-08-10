@@ -18,16 +18,7 @@ struct ContentView: View {
         .ignoresSafeArea()
       VStack {
         InstructionsView(game: $game)
-        HStack {
-          Text("1")
-            .bold()
-            .foregroundColor(Color("TextColor"))
-          Slider(value: $sliderValue, in: 1.0...100.0)
-          Text("100")
-            .bold()
-            .foregroundColor(Color("TextColor"))
-        }
-        .padding()
+          SliderView(sliderValue: $sliderValue)
         Button("Hit me".uppercased()) {
           alertIsVisible = true
         }
@@ -76,6 +67,22 @@ struct InstructionsView: View {
     }
   }
 }
+struct SliderView: View {
+    @Binding var sliderValue: Double
+    
+    
+    
+  var body: some View {
+      HStack {
+        SliderLabelText(test: "1")
+        Slider(value: $sliderValue, in: 1.0...100.0)
+        SliderLabelText(test: "100")
+      }
+      .padding()
+    }
+  }
+
+
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
