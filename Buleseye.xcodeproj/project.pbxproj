@@ -16,6 +16,8 @@
 		DE7FA4A22A82D5D4006A2740 /* BuleseyeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FA4A12A82D5D4006A2740 /* BuleseyeUITestsLaunchTests.swift */; };
 		DE7FA4AF2A82D603006A2740 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FA4AE2A82D603006A2740 /* Game.swift */; };
 		DE7FA4B42A840D32006A2740 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FA4B32A840D32006A2740 /* TextViews.swift */; };
+		DE84501E2A8BE12A0009772C /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE84501D2A8BE12A0009772C /* Shapes.swift */; };
+		DE8450202A8D73C50009772C /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE84501F2A8D73C50009772C /* RoundedViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DE7FA4A12A82D5D4006A2740 /* BuleseyeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuleseyeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DE7FA4AE2A82D603006A2740 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		DE7FA4B32A840D32006A2740 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		DE84501D2A8BE12A0009772C /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		DE84501F2A8D73C50009772C /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 			children = (
 				DE7FA4852A82D5D1006A2740 /* ContentView.swift */,
 				DE7FA4B32A840D32006A2740 /* TextViews.swift */,
+				DE84501D2A8BE12A0009772C /* Shapes.swift */,
+				DE84501F2A8D73C50009772C /* RoundedViews.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,8 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8450202A8D73C50009772C /* RoundedViews.swift in Sources */,
 				DE7FA4862A82D5D1006A2740 /* ContentView.swift in Sources */,
 				DE7FA4B42A840D32006A2740 /* TextViews.swift in Sources */,
+				DE84501E2A8BE12A0009772C /* Shapes.swift in Sources */,
 				DE7FA4AF2A82D603006A2740 /* Game.swift in Sources */,
 				DE7FA4842A82D5D1006A2740 /* BuleseyeApp.swift in Sources */,
 			);
