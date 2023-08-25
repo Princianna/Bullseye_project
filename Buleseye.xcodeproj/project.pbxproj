@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE7AE4352A946F1100C36242 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7AE4342A946F1000C36242 /* BackgroundView.swift */; };
 		DE7FA4842A82D5D1006A2740 /* BuleseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FA4832A82D5D1006A2740 /* BuleseyeApp.swift */; };
 		DE7FA4862A82D5D1006A2740 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FA4852A82D5D1006A2740 /* ContentView.swift */; };
 		DE7FA4882A82D5D4006A2740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7FA4872A82D5D4006A2740 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE7AE4342A946F1000C36242 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		DE7FA4802A82D5D1006A2740 /* Buleseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buleseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7FA4832A82D5D1006A2740 /* BuleseyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuleseyeApp.swift; sourceTree = "<group>"; };
 		DE7FA4852A82D5D1006A2740 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				DE7FA4B32A840D32006A2740 /* TextViews.swift */,
 				DE84501D2A8BE12A0009772C /* Shapes.swift */,
 				DE84501F2A8D73C50009772C /* RoundedViews.swift */,
+				DE7AE4342A946F1000C36242 /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				DE8450202A8D73C50009772C /* RoundedViews.swift in Sources */,
 				DE7FA4862A82D5D1006A2740 /* ContentView.swift in Sources */,
 				DE7FA4B42A840D32006A2740 /* TextViews.swift in Sources */,
+				DE7AE4352A946F1100C36242 /* BackgroundView.swift in Sources */,
 				DE84501E2A8BE12A0009772C /* Shapes.swift in Sources */,
 				DE7FA4AF2A82D603006A2740 /* Game.swift in Sources */,
 				DE7FA4842A82D5D1006A2740 /* BuleseyeApp.swift in Sources */,
